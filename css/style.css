@@ -773,4 +773,20 @@ footer {
         height: 400px;
         object-fit: cover;
     }
+
+    .swiper-container {
+        width: 100%;
+        max-width: 330px;
+        height: auto;
+        margin-bottom: 2em;
+        overflow: hidden;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        border-radius: 8px;
+    }
 }
