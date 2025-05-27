@@ -761,6 +761,14 @@ footer {
         padding: 1em 8em;
     }
 
+    .product-reviews h2 {
+        text-align: center;
+    }
+
+    .product-reviews p {
+        text-align: center;
+    }
+
     .details-mobile .small-shoe-preview {
         width: 60px;
     }
