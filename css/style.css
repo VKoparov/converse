@@ -715,6 +715,22 @@ footer {
         font-size: 0.85em;
     }
 
+    .footer-bottom .locale {
+        flex: none;
+        font-size: .55em;
+    }
+
+    .footer-bottom .contact {
+        /*gap: 5px;*/
+        flex: none;
+        font-size: .55em;
+    }
+
+    .footer-bottom {
+        padding: 1.8em .9em;
+        flex-wrap: nowrap;
+    }
+
     .footer-bottom-mobile .legal {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
