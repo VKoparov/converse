@@ -717,13 +717,11 @@ footer {
 
     .footer-bottom .locale {
         flex: none;
-        font-size: .55em;
     }
 
     .footer-bottom .contact {
-        /*gap: 5px;*/
+        gap: 5px;
         flex: none;
-        font-size: .55em;
     }
 
     .footer-bottom {
