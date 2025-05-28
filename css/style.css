@@ -270,9 +270,10 @@ a {
 }
 
 .details .price {
-    font-size: .95em;
+    font-size: 14px;
     font-weight: 400;
     margin: 0.5em 0 1em 0;
+    color: black;
 }
 
 .sku {
@@ -673,6 +674,10 @@ footer {
         border-bottom: none;
     }
 
+    .icons {
+        gap: 10px;
+    }
+
     .nav-bar {
         justify-content: space-between;
         padding: 20px 20px;
@@ -681,7 +686,8 @@ footer {
 
     .nav-bar .logo {
         display: flex;
-        margin-left: 40px;
+        margin-left: 60px;
+        width: 150px;
     }
 
     .breadcrumb-overlay {
@@ -704,6 +710,7 @@ footer {
 
     .details .price {
         margin: auto 0;
+        color: black;
     }
 
     .details h1 {
@@ -779,6 +786,21 @@ footer {
 
     .details-mobile-2 p {
         margin: 1.8em 0;
+    }
+
+    .details-mobile .short-description, .read-more {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .details-mobile, .read-more {
+        font-size: 13px;
+    }
+
+    .details h1 {
+        font-size: 16px;
     }
 
     form {
